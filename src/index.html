@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="top-bar">
+    <h1 class="logo">MyMusic</h1>
+
+    <nav class="main-nav">
+      <a href="#">Home</a>
+      <a href="#">Browse</a>
+      <a href="#">Library</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Your Library</h2>
+      <ul class="playlist-list">
+        <li>Liked Songs</li>
+        <li>Daily Mix</li>
+        <li>Workout</li>
+        <li>Chill Vibes</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <section class="content">
+      <h2>Recently Played</h2>
+
+      <ul class="album-grid">
+        <li class="album-card">
+          <figure>
+            <img src="img/album1.jpg" alt="album 1" />
+            <figcaption>Album One</figcaption>
+          </figure>
+        </li>
+
+        <li class="album-card">
+          <figure>
+            <img src="img/album2.jpg" alt="album 2" />
+            <figcaption>Album Two</figcaption>
+          </figure>
+        </li>
+
+        <li class="album-card">
+          <figure>
+            <img src="img/album3.jpg" alt="album 3" />
+            <figcaption>Album Three</figcaption>
+          </figure>
+        </li>
+
+        <li class="album-card">
+          <figure>
+            <img src="img/album4.jpg" alt="album 4" />
+            <figcaption>Album Four</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="player">
+    <p>Now Playing: <span class="accent">Song Title</span></p>
+  </footer>
+</body>
+
+</html>
