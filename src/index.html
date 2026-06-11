@@ -2,89 +2,99 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Marcy Music</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header>
-    <figure><img src="img/logo.png" alt="logo"></figure>
-    <h1>Marcy Music</h1>
-    <nav>
-      <a href="#">Library</a>
-      <a href="#">Explore</a>
-      <a href="#">Profile</a>
-    </nav>
+    <div class="header-inner">
+      <img class="logo-img"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Record_player_icon.svg/120px-Record_player_icon.svg.png"
+        alt="Marcy Music logo" />
+      <h1 class="site-title">Marcy Music</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Library</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
+  <!-- MAIN CONTENT -->
   <main>
-    <section>
-      <h2>Playlists</h2>
-      <ul id="playlists-container">
-        <li class="playlist-items">
-          <figure><img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2noYFhk0p0XxwGBF1pESxuvJg-MF1j2OSi6PAqBCOktu-VzOmx4aJRxbzWUlL0AaA36Z_oMQ0XZbGvbGMzr3GdKjxToMkbTZCfTCzu_BI&s=10"
-              alt="Bruno"></figure>
-          <figcaption>Bruno Mars</figcaption>
+
+    <!-- PLAYLISTS SECTION -->
+    <section class="playlists-section">
+      <h2 class="section-heading">Playlists</h2>
+      <ul class="playlists-grid">
+        <li class="playlist-card">
+          <img src="https://picsum.photos/seed/chill/100/100" alt="Chill Vibes" />
+          <span>Chill Vibes</span>
         </li>
-        <li class="playlist-items">
-          <figure><img src="" alt="Weeknd"></figure>
-          <figcaption>The Weeknd</figcaption>
+        <li class="playlist-card">
+          <img src="https://picsum.photos/seed/focus/100/100" alt="Focuss" />
+          <span>Focuss</span>
         </li>
-        <li class="playlist-items">
-          <figure><img
-              src="https://static.wikia.nocookie.net/celebrityverse/images/7/71/GxAQGKx.jpg/revision/latest/scale-to-width-down/1000?cb=20170617125513"
-              alt="Bieber"></figure>
-          <figcaption>Justin Bieber</figcaption>
+        <li class="playlist-card">
+          <img src="https://picsum.photos/seed/night/100/100" alt="Late Night" />
+          <span><strong>Late Night</strong></span>
         </li>
-        <li class="playlist-items">
-          <figure><img src="https://i.scdn.co/image/ab67616d00001e02a39fd24a6fe8db83bb6ef251" alt="Ari"></figure>
-          <figcaption>Ari Abdul</figcaption>
+        <li class="playlist-card">
+          <img src="https://picsum.photos/seed/love/100/100" alt="Love Songs" />
+          <span>Love Songs</span>
         </li>
-        <li class="playlist-items">
-          <figure><img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvPU9nk5wGUWx17QCYYnUDzUgwpEjuphNoxg&s"
-              alt="Gaga"></figure>
-          <figcaption>Lady Gaga</figcaption>
+        <li class="playlist-card">
+          <img src="https://picsum.photos/seed/oldies/100/100" alt="Oldies" />
+          <span><strong>Oldies</strong></span>
         </li>
-        <li class="playlist-items">
-          <figure><img src="https://upload.wikimedia.org/wikipedia/en/e/ec/The_Neighbourhood_-_The_Neighbourhood.jpg"
-              alt="Neighbourhood"></figure>
-          <figcaption>The Neighbourhood</figcaption>
-        </li class="playlist-items">
-      </ul>
-    </section>
-    <section>
-      <h2>Albums</h2>
-      <ul id="albums-container">
-        <li class="album-items">
-          <figure><img src="https://m.media-amazon.com/images/I/41XqqpXPMBL._UXNaN_FMjpg_QL85_.jpg" alt="Eeyuh">
-          </figure>
-          <figcaption>EEYUH!</figcaption>
-          <p>Irokz</p>
-        </li>
-        <li class="album-items">
-          <figure><img src="https://i.scdn.co/image/ab67616d0000b2734c5b86e142371ee67aeff346" alt="Let You Go"></figure>
-          <figcaption>LET YOU GO</figcaption>
-          <p>RomancePlanet</p>
-        </li>
-        <li class="album-items">
-          <figure><img src="https://i.scdn.co/image/ab67616d0000b273bc2fcb800ed736939e0925bb" alt="jessie"></figure>
-          <figcaption>jessie</figcaption>
-          <p>riserayss</p>
-        </li>
-        <li class="album-items">
-          <figure><img src="https://i.scdn.co/image/ab67616d0000b2730ee99604a82d755e949ee2de" alt="Shattered"></figure>
-          <figcaption>Shattered Memories</figcaption>
-          <p>Navjaxx</p>
+        <li class="playlist-card">
+          <img src="https://picsum.photos/seed/sad/100/100" alt="Sad" />
+          <span>Sad</span>
         </li>
       </ul>
     </section>
+
+    <!-- ALBUMS SECTION -->
+    <section class="albums-section">
+      <h2 class="section-heading">Albums</h2>
+      <ul class="albums-grid">
+        <li class="album-card">
+          <img src="https://picsum.photos/seed/midnight/180/180" alt="Midnight Dreams" />
+          <p class="album-title"><strong>Midnight Dreams</strong></p>
+          <p class="album-artist">Luna Ray</p>
+        </li>
+        <li class="album-card">
+          <img src="https://picsum.photos/seed/electric/180/180" alt="Electric Soul" />
+          <p class="album-title"><strong>Electric Soul</strong></p>
+          <p class="album-artist">The Voltage</p>
+        </li>
+        <li class="album-card">
+          <img src="https://picsum.photos/seed/golden/180/180" alt="Golden Hour" />
+          <p class="album-title"><strong>Golden Hour</strong></p>
+          <p class="album-artist">Sunset Collective</p>
+        </li>
+        <li class="album-card">
+          <img src="https://picsum.photos/seed/kermit/180/180" alt="Kermit Does Jazz" />
+          <p class="album-title"><strong>Kermit Does Jazz</strong></p>
+          <p class="album-artist" style="font-size: 0.9rem;">Kermit the Frog</p>
+        </li>
+      </ul>
+    </section>
+
   </main>
+
+  <!-- FOOTER -->
   <footer>
-    <p>Made by a fellow at <a href="https://www.marcylabschool.org/">Marcy Lab School</a></p>
+    <p>Made with ❤️ at <a href="#">Marcy Lab School</a></p>
   </footer>
+
 </body>
 
 </html>
